@@ -13,7 +13,7 @@ RESET='\033[0m'
 
 echo
 echo -e "${CYAN}$(figlet KVM-i7)${RESET}"
-echo "A Paid VPS Hosting Company with 4K+ Members (discord.gg/kvm)"
+echo "A Paid & Free VPS Hosting Company with 600+ Members (discord.gg/lpnodes)"
 
 declare -A SERVERS
 SERVERS=(
