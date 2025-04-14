@@ -8,8 +8,8 @@ from discord import app_commands
 
 WEBHOOK_URL = ""
 TOKEN = ""
-SERVER_ID = 1293949144540381185
-ALLOWED_ROLES = [1304429499445809203]
+SERVER_ID = 1357376822760701952
+ALLOWED_ROLES = [1358418700369395814]
 NODE_DETAILS = {
     "usa-1": {"ip": "localhost", "username": "host2", "password": ""},
 }
@@ -97,7 +97,7 @@ async def create_proxmox_vm(memory, cores, disk, user, node):
     except Exception as e:
         raise Exception(f"Error during VM creation: {str(e)}")
 
-@bot.tree.command(name="create-vps", description="Create a KVM-i7 VPS for a user using VPS plans")
+@bot.tree.command(name="create-vps", description="Create a lpnodes VPS for a user using VPS plans")
 @app_commands.describe(
     plan="The VPS plan to choose",
     customer="The user to DM",
