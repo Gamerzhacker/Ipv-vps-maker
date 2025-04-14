@@ -12,7 +12,7 @@ WHITE='\033[1;97m'
 RESET='\033[0m'
 
 echo
-echo -e "${CYAN}$(figlet KVM-i7)${RESET}"
+echo -e "${CYAN}$(figlet lpnodes)${RESET}"
 echo "A Paid & Free VPS Hosting Company with 600+ Members (discord.gg/lpnodes)"
 
 declare -A SERVERS
