@@ -16,7 +16,7 @@ from discord import app_commands
 #
 # docker network create --subnet=10.73.17.0/24 kvmnet
 #
-# To make the network for kvm-i7 servers.
+# To make the network for lpnodes servers.
 #
 ##########################################
 
@@ -27,8 +27,8 @@ NODES = [
 
 remote_user = "root"
 remote_password = ""
-server_id = 1293949144540381185
-allowed_roles = [1304429499445809203]
+server_id = 1357376822760701952
+allowed_roles = [1358418700369395814]
 session_file = "/sessions.txt"
 database_file = "database.txt"
 
